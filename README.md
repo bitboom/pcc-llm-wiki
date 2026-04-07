@@ -21,6 +21,16 @@ The goal is not generic AI summarization. The goal is to maintain a persistent r
 - external auditability
 - cross-vendor similarities and differences
 
+## Published site
+
+The repository now includes a Quartz-powered public site intended for GitHub Pages:
+
+- Project URL: `https://bitboom.github.io/pcc-llm-wiki/`
+- Authoring layer: `wiki/`
+- Generated publish layer: `content/`
+
+`content/` is generated automatically from the authored wiki before each Quartz build. It is not the source of truth.
+
 ## Layout
 
 ```text
@@ -29,6 +39,8 @@ wiki/        Maintained markdown knowledge base
 templates/   Page templates for repeatable ingestion
 diagrams/    Architecture diagrams and visual assets
 summaries/   Working summaries or temporary synthesis outputs
+quartz/      Quartz runtime and layout components
+scripts/     Repo-specific build and sync helpers
 index.md     Main wiki navigation surface
 log.md       Chronological append-only activity log
 AGENTS.md    Rules for ingestion, maintenance, and citation
@@ -53,6 +65,21 @@ The current source registry is metadata-first. Local binary or HTML captures can
 3. Update affected system, concept, mechanism, and comparison pages.
 4. Refresh `index.md`.
 5. Append an entry to `log.md`.
+
+## Local preview
+
+```bash
+npm ci
+npm run dev
+```
+
+For a production build:
+
+```bash
+npm run build
+```
+
+Quartz will regenerate `content/` from `wiki/` and root navigation files before building the static site into `public/`.
 
 ## Source quality policy
 

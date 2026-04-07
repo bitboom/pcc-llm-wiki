@@ -2,3 +2,7 @@
 .obsidian/
 .cache/
 *.swp
+node_modules/
+public/
+.quartz-cache/
+tsconfig.tsbuildinfo
