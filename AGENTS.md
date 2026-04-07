@@ -22,14 +22,20 @@ It should not optimize for:
 
 ## Repository model
 
-There are three layers:
+There are five relevant layers:
 
 1. `raw/`
    Immutable source registry. Each source lives in its own folder with metadata in `source.md`. Additional local artifacts such as PDFs, HTML captures, images, or notes can be added inside the same folder.
 2. `wiki/`
-   The maintained knowledge layer. This is where the agent writes summaries, concept pages, comparisons, and source digests.
-3. `templates/`
+   The maintained knowledge layer and the source of truth for authored research content. This is where the agent writes summaries, concept pages, comparisons, and source digests.
+3. `content/`
+   The generated publish layer for Quartz. It is derived from `wiki/` and root navigation files by `scripts/sync-content.mjs`. Do not manually edit `content/` unless the task is specifically about the generation pipeline itself.
+4. `quartz/`
+   Quartz runtime, components, and site rendering logic.
+5. `templates/`
    Reusable page templates for consistent ingestion.
+
+`public/` is a build artifact emitted by Quartz and must not be treated as authored content.
 
 ## Scope and priorities
 
@@ -78,6 +84,22 @@ Use these page types consistently:
 - Prefer short sections and explicit headings over long narrative blocks.
 - When evidence is incomplete, create an `Open questions` section instead of guessing.
 
+## Publish model
+
+- The public site is built with Quartz and deployed to GitHub Pages.
+- Public URL target: `https://bitboom.github.io/pcc-llm-wiki/`
+- Quartz configuration lives in `quartz.config.ts` and `quartz.layout.ts`.
+- `scripts/sync-content.mjs` regenerates `content/` from `wiki/` and root navigation files.
+- The deployment workflow is `.github/workflows/deploy.yml`.
+
+## Editing rules for published content
+
+- Edit `wiki/`, not `content/`, for normal content updates.
+- Treat `content/` as generated output that should be refreshed, not hand-maintained.
+- If a change affects public navigation or rendering, update the authored source first, then regenerate `content/`.
+- Do not add public-facing links that depend on repo-only browsing of `raw/`.
+- Public pages may mention that raw metadata exists in the repository, but should not rely on `raw/.../source.md` as the main reading path.
+
 ## Ingestion workflow
 
 For each new source:
@@ -95,6 +117,7 @@ For each new source:
 7. Update comparison pages if conclusions change.
 8. Refresh `index.md`.
 9. Append an entry to `log.md`.
+10. Regenerate the publish layer with `npm run sync:content` or `npm run build` if the change affects the site.
 
 ## Maintenance rules
 
@@ -103,6 +126,8 @@ For each new source:
 - Keep `log.md` append-only.
 - Keep `index.md` content-oriented and stable.
 - Mark stubs and weakly supported pages clearly.
+- Keep `wiki/` and `content/` aligned. If `wiki/` changes but `content/` is stale, refresh it before concluding work.
+- Do not hand-edit build artifacts in `public/`.
 
 ## Quality checks
 
@@ -113,3 +138,5 @@ Before concluding a substantive update:
 - confirm that source digests link to raw metadata
 - confirm that comparison pages clearly separate claims from evidence
 - confirm that open questions remain open unless a source actually resolves them
+- if content changed, confirm `npm run build` succeeds
+- if the publish layer changed, confirm `content/` was regenerated from source rather than manually edited
