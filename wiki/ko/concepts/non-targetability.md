@@ -3,9 +3,9 @@ title: 비표적성(Non-Targetability)
 page_type: concept-page
 status: seeded
 sources:
-  - ../../sources/apple-2024-06-10-private-cloud-compute-intro.md
-  - ../../sources/meta-2025-04-29-private-processing-engineering.md
-  - ../../sources/meta-2025-04-29-private-processing-whitepaper.md
+  - ../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md
+  - ../../ko/sources/meta-2025-04-29-private-processing-engineering.md
+  - ../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md
 ---
 
 # 비표적성(Non-Targetability)
@@ -20,11 +20,11 @@ sources:
 
 ## Apple
 
-Apple은 PCC에서 비표적성을 명시적으로 제시한다. 공개된 설명에는 최소화된 요청 메타데이터, 제3자 OHTTP 릴레이 사용, 블라인드 서명(blind signature) 기반 인가, 부분집합 기반 노드 복호화를 통한 유도 가능성(steerability) 및 연결 가능성(linkability) 감소가 포함된다. 출처: [Apple PCC 소개](../../sources/apple-2024-06-10-private-cloud-compute-intro.md).
+Apple은 PCC에서 비표적성을 명시적으로 제시한다. 공개된 설명에는 최소화된 요청 메타데이터, 제3자 OHTTP 릴레이 사용, 블라인드 서명(blind signature) 기반 인가, 부분집합 기반 노드 복호화를 통한 유도 가능성(steerability) 및 연결 가능성(linkability) 감소가 포함된다. 출처: [Apple PCC 소개](../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md).
 
 ## Google 및 Meta
 
-Meta의 공개 자료는 라우팅 프라이버시(routing privacy) 측면에서 현재 공개된 Google 코퍼스보다 Apple에 더 가까운 것으로 보인다. Meta는 익명 또는 릴레이 기반 요청 처리를 강조하는 반면, Google의 공개 시드 코퍼스는 이 부분에서 덜 명시적이다. 출처: [Meta Private Processing 엔지니어링](../../sources/meta-2025-04-29-private-processing-engineering.md), [Meta Private Processing 백서](../../sources/meta-2025-04-29-private-processing-whitepaper.md), [Google Private AI Compute 기술 브리프](../../sources/google-2025-11-11-private-ai-compute-technical-brief.md).
+Meta의 공개 자료는 라우팅 프라이버시(routing privacy) 측면에서 현재 공개된 Google 코퍼스보다 Apple에 더 가까운 것으로 보인다. Meta는 익명 또는 릴레이 기반 요청 처리를 강조하는 반면, Google의 공개 시드 코퍼스는 이 부분에서 덜 명시적이다. 출처: [Meta Private Processing 엔지니어링](../../ko/sources/meta-2025-04-29-private-processing-engineering.md), [Meta Private Processing 백서](../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md), [Google Private AI Compute 기술 브리프](../../ko/sources/google-2025-11-11-private-ai-compute-technical-brief.md).
 
 ## 한계와 주의사항
 
@@ -33,6 +33,6 @@ Meta의 공개 자료는 라우팅 프라이버시(routing privacy) 측면에서
 
 ## 출처
 
-- [Apple PCC 소개](../../sources/apple-2024-06-10-private-cloud-compute-intro.md)
-- [Meta Private Processing 엔지니어링](../../sources/meta-2025-04-29-private-processing-engineering.md)
-- [Meta Private Processing 백서](../../sources/meta-2025-04-29-private-processing-whitepaper.md)
+- [Apple PCC 소개](../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md)
+- [Meta Private Processing 엔지니어링](../../ko/sources/meta-2025-04-29-private-processing-engineering.md)
+- [Meta Private Processing 백서](../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md)

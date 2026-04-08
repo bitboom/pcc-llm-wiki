@@ -3,10 +3,10 @@ title: 특권 접근 불가(No Privileged Access)
 page_type: concept-page
 status: seeded
 sources:
-  - ../../sources/apple-2024-06-10-private-cloud-compute-intro.md
-  - ../../sources/apple-2024-10-24-pcc-security-guide.md
-  - ../../sources/meta-2025-04-29-private-processing-whitepaper.md
-  - ../../sources/google-2025-11-11-private-ai-compute-technical-brief.md
+  - ../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md
+  - ../../ko/sources/apple-2024-10-24-pcc-security-guide.md
+  - ../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md
+  - ../../ko/sources/google-2025-11-11-private-ai-compute-technical-brief.md
 ---
 
 # 특권 접근 불가(No Privileged Access)
@@ -21,11 +21,11 @@ sources:
 
 ## Apple
 
-Apple은 이를 PCC의 명시적 속성으로 삼는다. 공개된 내용에 따르면, 일반적인 특권 운영 접근이 사용자 데이터에 대한 접근을 제공하거나 증명된 소프트웨어 경계(attested software boundary)의 우회를 허용해서는 안 된다. 출처: [Apple PCC 소개](../../sources/apple-2024-06-10-private-cloud-compute-intro.md), [Apple PCC 보안 가이드](../../sources/apple-2024-10-24-pcc-security-guide.md).
+Apple은 이를 PCC의 명시적 속성으로 삼는다. 공개된 내용에 따르면, 일반적인 특권 운영 접근이 사용자 데이터에 대한 접근을 제공하거나 증명된 소프트웨어 경계(attested software boundary)의 우회를 허용해서는 안 된다. 출처: [Apple PCC 소개](../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md), [Apple PCC 보안 가이드](../../ko/sources/apple-2024-10-24-pcc-security-guide.md).
 
 ## Google 및 Meta
 
-Google과 Meta도 유사한 운영자 최소화(operator minimization)를 목표로 할 가능성이 높지만, 시드 코퍼스는 현재 Apple 자료만큼 명시적인 "특권 런타임 접근 불가" 프레이밍을 보여주지 않는다. 출처: [Google Private AI Compute 기술 브리프](../../sources/google-2025-11-11-private-ai-compute-technical-brief.md), [Meta Private Processing 백서](../../sources/meta-2025-04-29-private-processing-whitepaper.md).
+Google과 Meta도 유사한 운영자 최소화(operator minimization)를 목표로 할 가능성이 높지만, 시드 코퍼스는 현재 Apple 자료만큼 명시적인 "특권 런타임 접근 불가" 프레이밍을 보여주지 않는다. 출처: [Google Private AI Compute 기술 브리프](../../ko/sources/google-2025-11-11-private-ai-compute-technical-brief.md), [Meta Private Processing 백서](../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md).
 
 ## 한계와 주의사항
 
@@ -34,7 +34,7 @@ Google과 Meta도 유사한 운영자 최소화(operator minimization)를 목표
 
 ## 출처
 
-- [Apple PCC 소개](../../sources/apple-2024-06-10-private-cloud-compute-intro.md)
-- [Apple PCC 보안 가이드](../../sources/apple-2024-10-24-pcc-security-guide.md)
-- [Google Private AI Compute 기술 브리프](../../sources/google-2025-11-11-private-ai-compute-technical-brief.md)
-- [Meta Private Processing 백서](../../sources/meta-2025-04-29-private-processing-whitepaper.md)
+- [Apple PCC 소개](../../ko/sources/apple-2024-06-10-private-cloud-compute-intro.md)
+- [Apple PCC 보안 가이드](../../ko/sources/apple-2024-10-24-pcc-security-guide.md)
+- [Google Private AI Compute 기술 브리프](../../ko/sources/google-2025-11-11-private-ai-compute-technical-brief.md)
+- [Meta Private Processing 백서](../../ko/sources/meta-2025-04-29-private-processing-whitepaper.md)

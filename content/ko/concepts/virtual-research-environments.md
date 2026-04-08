@@ -3,10 +3,10 @@ title: 가상 연구 환경(Virtual Research Environments)
 page_type: concept-page
 status: seeded
 sources:
-  - ../../sources/apple-2024-10-24-pcc-security-research.md
-  - ../../sources/apple-2024-10-24-pcc-vre.md
-  - ../../sources/google-2025-11-08-ncc-private-ai-compute-review.md
-  - ../../sources/meta-2025-08-27-ncc-private-processing-audit.md
+  - ../../ko/sources/apple-2024-10-24-pcc-security-research.md
+  - ../../ko/sources/apple-2024-10-24-pcc-vre.md
+  - ../../ko/sources/google-2025-11-08-ncc-private-ai-compute-review.md
+  - ../../ko/sources/meta-2025-08-27-ncc-private-processing-audit.md
 ---
 
 # 가상 연구 환경(Virtual Research Environments)
@@ -21,11 +21,11 @@ sources:
 
 ## Apple
 
-Apple의 PCC VRE는 주요 차별화 요소이다. 연구자가 릴리스를 검사하고, 일관성을 확인하며, 가상화된 PCC 소프트웨어를 부팅하고, Apple 실리콘에서 시연 추론(demonstration inference)을 수행할 수 있는 문서화된 경로를 제공한다. 출처: [Apple PCC 보안 연구](../../sources/apple-2024-10-24-pcc-security-research.md), [Apple PCC VRE 문서](../../sources/apple-2024-10-24-pcc-vre.md).
+Apple의 PCC VRE는 주요 차별화 요소이다. 연구자가 릴리스를 검사하고, 일관성을 확인하며, 가상화된 PCC 소프트웨어를 부팅하고, Apple 실리콘에서 시연 추론(demonstration inference)을 수행할 수 있는 문서화된 경로를 제공한다. 출처: [Apple PCC 보안 연구](../../ko/sources/apple-2024-10-24-pcc-security-research.md), [Apple PCC VRE 문서](../../ko/sources/apple-2024-10-24-pcc-vre.md).
 
 ## Google 및 Meta
 
-시드 코퍼스는 현재 Google과 Meta에 대해 외부 감사(outside audits)는 보여주지만, 공개된 VRE와 유사한 환경은 보여주지 않는다. 이는 이들의 공개적 연구 자세(research posture)가 직접적인 연구자 실행보다는 문서와 감사자를 통해 더 매개된 형태임을 의미한다. 출처: [NCC Group의 Google Private AI Compute 검토](../../sources/google-2025-11-08-ncc-private-ai-compute-review.md), [NCC Group의 WhatsApp Private Processing 감사](../../sources/meta-2025-08-27-ncc-private-processing-audit.md).
+시드 코퍼스는 현재 Google과 Meta에 대해 외부 감사(outside audits)는 보여주지만, 공개된 VRE와 유사한 환경은 보여주지 않는다. 이는 이들의 공개적 연구 자세(research posture)가 직접적인 연구자 실행보다는 문서와 감사자를 통해 더 매개된 형태임을 의미한다. 출처: [NCC Group의 Google Private AI Compute 검토](../../ko/sources/google-2025-11-08-ncc-private-ai-compute-review.md), [NCC Group의 WhatsApp Private Processing 감사](../../ko/sources/meta-2025-08-27-ncc-private-processing-audit.md).
 
 ## 한계와 주의사항
 
@@ -34,7 +34,7 @@ Apple의 PCC VRE는 주요 차별화 요소이다. 연구자가 릴리스를 검
 
 ## 출처
 
-- [Apple PCC 보안 연구](../../sources/apple-2024-10-24-pcc-security-research.md)
-- [Apple PCC VRE 문서](../../sources/apple-2024-10-24-pcc-vre.md)
-- [NCC Group의 Google Private AI Compute 검토](../../sources/google-2025-11-08-ncc-private-ai-compute-review.md)
-- [NCC Group의 WhatsApp Private Processing 감사](../../sources/meta-2025-08-27-ncc-private-processing-audit.md)
+- [Apple PCC 보안 연구](../../ko/sources/apple-2024-10-24-pcc-security-research.md)
+- [Apple PCC VRE 문서](../../ko/sources/apple-2024-10-24-pcc-vre.md)
+- [NCC Group의 Google Private AI Compute 검토](../../ko/sources/google-2025-11-08-ncc-private-ai-compute-review.md)
+- [NCC Group의 WhatsApp Private Processing 감사](../../ko/sources/meta-2025-08-27-ncc-private-processing-audit.md)
