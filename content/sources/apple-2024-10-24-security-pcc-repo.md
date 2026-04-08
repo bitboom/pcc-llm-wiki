@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-10-24
 - URL: https://github.com/apple/security-pcc
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Apple released selected PCC source components rather than a full source drop.

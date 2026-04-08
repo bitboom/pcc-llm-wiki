@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-06-10
 - URL: https://security.apple.com/blog/private-cloud-compute/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Apple defines PCC around four properties: stateless computation, no privileged runtime access, non-targetability, and verifiable transparency.

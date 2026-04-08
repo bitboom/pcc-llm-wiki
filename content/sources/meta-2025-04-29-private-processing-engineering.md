@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-04-29
 - URL: https://engineering.fb.com/2025/04/29/security/whatsapp-private-processing-ai-tools/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - The engineering post provides deployment-level narrative context for Meta’s WhatsApp private processing system.

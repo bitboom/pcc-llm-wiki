@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-10-24
 - URL: https://security.apple.com/blog/pcc-security-research/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Apple released a PCC Security Guide, a Virtual Research Environment, selected PCC source components, and a dedicated bounty scope.

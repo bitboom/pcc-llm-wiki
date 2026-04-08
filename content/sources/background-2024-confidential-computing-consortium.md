@@ -15,7 +15,6 @@ status: seeded
 - Date: undated
 - URL: https://confidentialcomputing.io/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - The consortium provides baseline industry vocabulary for confidential computing and trusted execution environments.

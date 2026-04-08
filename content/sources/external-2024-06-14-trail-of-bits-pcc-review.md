@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-06-14
 - URL: https://blog.trailofbits.com/2024/06/14/pcc-bold-step-forward-not-without-flaws/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Apple’s design is unusually ambitious and meaningfully better than ordinary opaque cloud inference models.

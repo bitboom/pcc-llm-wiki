@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-11-11
 - URL: https://blog.google/innovation-and-ai/products/google-private-ai-compute/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Google frames Private AI Compute as a way to deliver cloud AI while preserving user privacy.
