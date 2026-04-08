@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-11-08
 - URL: https://www.nccgroup.com/research/public-report-google-private-ai-compute-review/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Google submitted the system to an outside security review.

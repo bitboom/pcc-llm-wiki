@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024
 - URL: https://hpi.de/fileadmin/user_upload/90_Research_Groups/classen/Documents/Masterprojekt_Classen_Lehmann.pdf
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - The paper extends public analysis of Apple PCC beyond short-form blog commentary.

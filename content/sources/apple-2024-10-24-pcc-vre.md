@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-10-24
 - URL: https://security.apple.com/documentation/private-cloud-compute/virtualresearchenvironment
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Apple exposes a documented path for researchers to inspect releases and run a virtualized PCC environment on Apple silicon.

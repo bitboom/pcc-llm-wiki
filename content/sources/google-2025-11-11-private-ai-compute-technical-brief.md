@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-11-11
 - URL: https://services.google.com/fh/files/misc/private_ai_compute_technical_brief.pdf
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - This is the main technical source for Google’s architecture and trust model.

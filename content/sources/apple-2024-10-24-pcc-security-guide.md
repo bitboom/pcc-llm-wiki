@@ -16,7 +16,6 @@ status: seeded
 - Date: 2024-10-24
 - URL: https://security.apple.com/documentation/private-cloud-compute
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - The guide is the canonical Apple documentation hub for PCC security details, attacks, and supporting mechanisms.

@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-08-27
 - URL: https://www.nccgroup.com/research/
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Meta’s system was subjected to outside audit.

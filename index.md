@@ -72,3 +72,7 @@ Main navigation surface for the PCC LLM wiki.
 ## Research
 
 - `wiki/research/` is reserved for future open questions, query outputs, and structured investigation notes.
+
+## 한국어 (Korean)
+
+- [한글 위키 색인](wiki/ko/index.md): 전체 위키의 한글 번역 네비게이션 페이지.

@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-04
 - URL: https://fpf.org/wp-content/uploads/2025/04/FPF_Confidential_Computing_Digital_R3_-_2025_Update.pdf
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Confidential computing provides a general framework for protecting data during processing by narrowing where plaintext is exposed.

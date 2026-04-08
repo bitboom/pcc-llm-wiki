@@ -16,7 +16,6 @@ status: seeded
 - Date: 2025-04-29
 - URL: https://ai.meta.com/static-resource/private-processing-technical-whitepaper
 - Raw source metadata: tracked in the repository under `raw/`.
-
 ## Key claims
 
 - Meta presents Private Processing as a privacy-preserving architecture for WhatsApp AI features.
