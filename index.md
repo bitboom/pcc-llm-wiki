@@ -12,6 +12,7 @@ Main navigation surface for the PCC LLM wiki.
 - [Apple Private Cloud Compute](wiki/systems/apple-private-cloud-compute.md): Apple’s cloud AI inference architecture, trust model, and auditability posture.
 - [Google Private AI Compute](wiki/systems/google-private-ai-compute.md): Google’s private cloud inference design as currently documented.
 - [Meta Private Processing](wiki/systems/meta-private-processing.md): Meta’s WhatsApp-centered private AI processing architecture.
+- [Intel Trust Authority](wiki/systems/intel-trust-authority.md): Intel’s cloud-based attestation service for SGX and TDX TEE verification.
 
 ## Concepts
 
@@ -63,6 +64,16 @@ Main navigation surface for the PCC LLM wiki.
 - [Meta Private Processing Whitepaper](wiki/sources/meta-2025-04-29-private-processing-whitepaper.md): Official white paper for WhatsApp private processing.
 - [Meta Engineering Post on Private Processing](wiki/sources/meta-2025-04-29-private-processing-engineering.md): Engineering architecture overview.
 - [NCC Group Audit of WhatsApp Private Processing](wiki/sources/meta-2025-08-27-ncc-private-processing-audit.md): External audit reference for Meta’s deployment.
+
+### Intel
+
+- [ITA Portal](wiki/sources/intel-ita-portal.md): Intel Trust Authority web portal for service access.
+- [ITA Go Client](wiki/sources/intel-ita-go-client.md): Go client library for Intel Trust Authority integration.
+- [ITA CLI](wiki/sources/intel-ita-cli.md): Command-line client for quote generation and attestation verification.
+- [ITA REST API Reference](wiki/sources/intel-ita-rest-api.md): REST API documentation for the attestation service.
+- [ITA Tokens and Claims](wiki/sources/intel-ita-tokens-and-claims.md): Attestation token structure and claims for SGX and TDX.
+- [ITA Custom Policies](wiki/sources/intel-ita-custom-policies.md): Custom attestation policy authoring with OPA/Rego.
+- [ITA API Keys and User Roles](wiki/sources/intel-ita-api-keys-and-user-roles.md): API key management and role-based access control.
 
 ### Background
 

@@ -7,6 +7,7 @@ sources:
   - ../sources/background-2024-confidential-computing-consortium.md
   - ../sources/google-2025-11-11-private-ai-compute-technical-brief.md
   - ../sources/meta-2025-04-29-private-processing-whitepaper.md
+  - ../sources/intel-ita-tokens-and-claims.md
 ---
 
 # TEE-Based Isolation
@@ -31,6 +32,10 @@ Meta Private Processing also appears to center protected execution, but couples 
 
 Apple PCC should not be flattened into this category. It may share some confidential-computing instincts, but the public corpus foregrounds transparency, device-side trust enforcement, and routing privacy more than generic enclave language. Sources: [Apple PCC Intro](../sources/apple-2024-06-10-private-cloud-compute-intro.md), [Apple PCC Security Research](../sources/apple-2024-10-24-pcc-security-research.md).
 
+## Intel
+
+Intel provides the hardware foundation (SGX and TDX) that many TEE-based isolation designs build on, and operates Intel Trust Authority as a cloud attestation service for verifying these environments. ITA does not itself provide workload isolation — the TEE hardware does — but it provides the verification layer that confirms a workload is running inside a genuine Intel TEE. This makes ITA a complementary infrastructure component rather than a competing private compute system. Sources: [ITA Tokens and Claims](../sources/intel-ita-tokens-and-claims.md), [ITA REST API Reference](../sources/intel-ita-rest-api.md).
+
 ## Limits and caveats
 
 - TEE-based isolation protects execution confidentiality but says less about metadata, routing, and public verifiability.
@@ -42,3 +47,5 @@ Apple PCC should not be flattened into this category. It may share some confiden
 - [Confidential Computing Consortium Reference](../sources/background-2024-confidential-computing-consortium.md)
 - [Google Private AI Compute Technical Brief](../sources/google-2025-11-11-private-ai-compute-technical-brief.md)
 - [Meta Private Processing Whitepaper](../sources/meta-2025-04-29-private-processing-whitepaper.md)
+- [ITA Tokens and Claims](../sources/intel-ita-tokens-and-claims.md)
+- [ITA REST API Reference](../sources/intel-ita-rest-api.md)
